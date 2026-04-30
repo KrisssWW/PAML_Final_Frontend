@@ -213,8 +213,8 @@ hr {
     transition: border 0.2s ease, box-shadow 0.2s ease;
 }
 .stTextArea textarea:focus {
-    border-color: rgba(180,150,200,0.6) !important;
-    box-shadow: 0 0 0 3px rgba(200,170,220,0.18) !important;
+    border-color: rgba(160,138,184,0.7) !important;
+    box-shadow: 0 0 0 3px rgba(160,138,184,0.20) !important;
 }
 .stTextArea label {
     font-size: 0.72rem !important;
