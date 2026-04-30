@@ -346,7 +346,14 @@ div[data-testid="stSlider"] div[role="slider"] {
     background-color: #a08ab8 !important;
     border-color: #a08ab8 !important;
 }
-div[data-testid="stSlider"] > div > div > div > div:first-child {
+div[data-testid="stSlider"] div[role="slider"]:focus,
+div[data-testid="stSlider"] div[role="slider"]:active {
+    box-shadow: 0 0 0 8px rgba(160, 138, 184, 0.25) !important;
+    outline: none !important;
+}
+div[data-testid="stSlider"] > div > div > div > div:first-child,
+[data-baseweb="slider"] [class*="track" i],
+[data-baseweb="slider"] [class*="Track"] {
     background: linear-gradient(90deg, #c4aed8, #a08ab8) !important;
 }
 
