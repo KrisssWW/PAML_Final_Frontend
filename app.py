@@ -129,6 +129,7 @@ html, body, [class*="css"] {
     max-width: 260px !important;
 }
 [data-testid="stSidebarResizeHandle"] { display: none !important; }
+[data-testid="stSidebarCollapseButton"] { display: none !important; }
 
 /* ── Main content: fill remaining width ── */
 .block-container {
