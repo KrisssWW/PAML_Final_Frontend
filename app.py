@@ -341,6 +341,15 @@ button[data-testid="baseButton-primary"]:hover {
     border: 1px solid rgba(0,0,0,0.10) !important;
 }
 
+/* ── Slider: muted mauve to match lavender gradient accents ── */
+div[data-testid="stSlider"] div[role="slider"] {
+    background-color: #a08ab8 !important;
+    border-color: #a08ab8 !important;
+}
+div[data-testid="stSlider"] > div > div > div > div:first-child {
+    background: linear-gradient(90deg, #c4aed8, #a08ab8) !important;
+}
+
 /* ── Deploy button text ── */
 [data-testid="stToolbar"] button,
 [data-testid="stHeader"] button,
